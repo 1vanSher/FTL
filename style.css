@@ -425,4 +425,63 @@ line-height: 28px;
   line-height: 48px;
   text-transform: uppercase;
   width: 400px;
+
+}
+
+.info_second-buner h3 span{
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.gruz{
+  font-weight: 400;
+}
+.otv{
+  color: #44B6AF;
+  font-weight: 600;
+}
+.info_buners{
+  display: flex;
+  gap: 13px;
+  margin-top: 37px;
+  margin-left: 57px;
+}
+.info_second-buner-1, .info_second-buner-2{
+  width: 273px;
+  height: 137px;
+  border-radius: 25px;
+  position: relative;
+  background: url(img/image24.png) no-repeat center center;
+}
+.info_second-buner-1 img{
+  position: absolute;
+  right: -15px;
+  bottom: 35px;
+}
+.info_second-buner-2 img{
+  position: absolute;
+  right: 20px;
+  bottom: 60px;
+}
+.info_second-buner-1 p{
+  width: 112px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.6px;  
+  color: #ffffff;
+  margin-top: 60px;
+  margin-left: 27px;
+  text-transform: uppercase;
+}
+.info_second-buner-2 p{
+  width: 233px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.6px;  
+  color: #ffffff;
+  margin-top: 60px;
+  margin-left: 27px;
+  text-transform: uppercase;
 }
