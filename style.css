@@ -23,7 +23,10 @@ menu, ol, ul{
   margin: 0;
   padding: 0;
 }
-
+.wrapper{
+  width: 1180px;
+  margin: 0 auto;
+}
 header{
   position: relative;
   z-index: 10;
@@ -484,4 +487,103 @@ line-height: 28px;
   margin-top: 60px;
   margin-left: 27px;
   text-transform: uppercase;
+}
+
+.advantage{
+  background: url(img/image22.svg) no-repeat center center;
+  height: 1093px;
+  width: 100%;
+  margin-top: 80px;
+}
+.help_text{
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.15;
+  padding-top: 200px;
+}
+
+.advantage_title{
+font-weight: 400;
+font-size: 50px;
+line-height: 65px;
+color: #ffffff;
+text-transform: uppercase;
+margin-top: -50px;
+}
+.advantage .wrapper h2 span{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.advatage_columns{
+  display: flex;
+  margin-top: 45px;
+  gap: 15px;
+}
+.advantage_first-column{
+  display: grid;
+  grid-template-columns: 320px 320px;
+  grid-template-rows: 240px 240px;
+  gap: 15px;
+}
+.advantage_block{
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.advantage_block div{
+  display: flex;
+  justify-content: start;
+  margin: 30px 0 0 30px;
+}
+
+.advantage_block div p{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  width: 175px;
+  text-transform: uppercase;
+}
+.advantage_block div img{
+  margin-right: 10px;
+}
+.advantage_block-desc{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 37px;
+  margin-left: 30px;
+  color: #343434;
+}
+.advantage_second-column{
+  width: 510px;
+  height: 498px;
+  border-radius: 18.17px;
+  background: url(img/фон.png) no-repeat center center;
+}
+
+.advantage_title-2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 70px;
+}
+
+.advantage_second-column p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.8px;
+  color: #fff;
+  margin-left: 48px;
+  margin-top: 20px;
+  width: 350px;
+}
+.advantage_second-column p span{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.8px;
+  color: #44B6AF;
+
 }
