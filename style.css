@@ -1644,3 +1644,26 @@ footer{
 .firsth6{
   padding-top: 35px;
 }
+
+.footer_row3{
+  background-color: #232323;
+  padding: 16px 0;
+}
+.footer_row3 .wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_row3 .wrapper p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #fff;
+}
+.footer_row3 .wrapper a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #fff;
+}
