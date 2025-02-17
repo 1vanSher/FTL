@@ -23,6 +23,10 @@ menu, ol, ul{
   margin: 0;
   padding: 0;
 }
+.wrapper{
+  width: 1180px;
+  margin: 0 auto;
+}
 
 header{
   position: relative;
