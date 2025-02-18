@@ -146,5 +146,24 @@ dots.forEach((item, indexDot) => {
     });
 });
   
-  
+document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.querySelector(".trust_slider");
+    const slides = document.querySelectorAll(".trust_slide");
+    let index = 0;
+
+    function nextSlide() {
+        index++;
+        if (index >= slides.length) {
+            index = 0; // Зацикливаем слайдер
+        }
+        updateSlider();
+    }
+
+    function updateSlider() {
+        const offset = -index * (100 / 3); // Смещение влево на 1 слайд
+        slider.style.transform = `translateX(${offset}%)`;
+    }
+
+    setInterval(nextSlide, 3000); // Автопереключение каждые 3 секунды
+});
   
